@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un sitio de producto genial">
+    <!-- Aqui podemos poner algún framework -->
+    
+    <!-- Aqui podemos poner algún framework -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--los iconos de google-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/><!--accede al css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--optimizacion para movile-->
+    <title>BRAND📦</title>
+
+  </head> <!-- Cierra head -->
+  <body>
+    <div class="navbar-fixed">
+      <nav class="fadeInDown">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"> <img src="images/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> <!--conexion con el menu hamburguesa y utilizacion del icono-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="faqs.html">Faqs</a></li>
+            <li><a href="producto.html">Producto y descripción</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+    
+    <ul class="sidenav" id="mobile-demo"><!--es para el menu hamburguesa-->
+      <li><a href="faqs.html">Faqs</a></li>
+      <li><a href="producto.html">Producto y descripción</a></li>
+    </ul>
+
+
+    <!-- Inicio preguntas -->
+    
+    <div class="container">
+      <div class="row"> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>¿Cómo comprar?</h4></li>
+            <li class="collection-item">Elegí los productos que quieras, agregalos al carrito, ingresá la dirección de entrega, pagá, ¡y listo!</li>
+          </ul>  
+        </div> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>¿Cómo puedo pagar mi compra?</h4></li>
+            <li class="collection-item">Podés pagar con tarjetas de crédito y débito Visa y MasterCard.</li>
+          </ul>  
+        </div> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>Envíos a todo el país</h4></li>
+            <li class="collection-item">Las entregas se realizan de lunes a viernes, entre las 9:00 y las 18:00 hs., con excepción de los días feriados.</li>
+          </ul>  
+        </div> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>Cambios y devoluciones</h4></li>
+            <li class="collection-item">A partir de que recibís el producto, podés devolverlo dentro de los diez (10) días hábiles.</li>
+          </ul>  
+        </div> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>¿Cómo realizo un cambio o devolución?</h4></li>
+            <li class="collection-item">Llamá al (011) 46 30789 y nuestro centro de atención al cliente te indicará los pasos a seguir.</li>
+          </ul>  
+        </div> 
+        <div class="col l12 m8 s12">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>¿Es seguro pagar en este sitio?</h4></li>
+            <li class="collection-item">Toda la información que ingreses queda automáticamente protegida por el sistema SSL (Secure Sockets Layer), que garantiza una transacción 100% segura.</li>
+          </ul>  
+        </div> 
+      </div>
+    </div>
+
+    <!-- Inicio de footer -->
+    <footer class="page-footer">
+      
+      <div class="container">
+        <div class="row"> 
+          <div class="col l4 m4 s12">
+            <a href="terminos.html" class="text center grey-text text-lighten-3"><p>Terminos y condiciones</p></a>
+          </div>
+          <div class="col l4 m4 s12">
+            <p class="text center grey-text text-lighten-3">   contacto@brand.com  </p>
+          </div>
+          <div class="col l4 m4 s12">
+            <a href="error.html" class="text center grey-text text-lighten-3"><p>Error</p></a>
+          </div>
+        </div>  
+      </div>
+      
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Script -->
+    <script src="scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          M.AutoInit();
+        });
+    </script>
+  </body> <!-- Cierra body -->
+</html> <!-- Cierra html -->

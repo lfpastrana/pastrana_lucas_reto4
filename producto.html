@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un sitio de producto genial">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--los iconos de google-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/><!--accede al css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--optimizacion para movile-->
+    <title>BRAND📦</title>
+
+  </head> <!-- Cierra head -->
+  <body>
+    <div class="navbar-fixed">
+      <nav class="fadeInDown">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"> <img src="images/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> <!--conexion con el menu hamburguesa y utilizacion del icono-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="faqs.html">Faqs</a></li>
+            <li><a href="producto.html">Producto y descripción</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+    
+    <ul class="sidenav" id="mobile-demo"><!--es para el menu hamburguesa-->
+      <li><a href="faqs.html">Faqs</a></li>
+      <li><a href="producto.html">Producto y descripción</a></li>
+    </ul>
+
+  
+
+    <div class="container fadeIn">
+      <br>
+      <h2 class="center">Producto y descripción</h2>
+      <br>
+
+    <div class="row">
+      <div class="col l12 s12 m12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="images/bicicleteria.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="center">Nuestra Bicicleteria</h3>
+              <p>Fundada en 1983 por Raul Gonzalez, desde ese entonces y día tras día satisfacemos las necesidades de nuestros vecinos, brindando la mejor opción en movilidad sustentable. Somos la primer bicicleteria de la ciudad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+             
+    <div class="row">
+      <div class="col l12 s12 m12">
+        <div class="card horizontal">
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="center">Nuestras Competencias</h3>
+              <p>Participamos en distintas competencias a nivel nacional e internacional para probar nosotros mismos a los productos y buscar el máximo rendimiento. </p>
+            </div>
+          </div>
+          <div class="card-image">
+            <img class="responsive-img" src="images/competencias.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col l12 s12 m12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="images/teller.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="center">Nuestro Taller</h3>
+              <p>Nos dedicamos a la reparación y manteminiento de todo tipo de bicicletas, de paseo, de carrera, de montaña, etc. A todas las tratamos con el mejor cariño y brindamos garantia de reparación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+    </div>
+
+
+
+
+    <!-- Inicio de footer -->
+    <footer class="page-footer">
+      
+      <div class="container">
+        <div class="row"> 
+          <div class="col l4 m4 s12">
+            <a href="terminos.html" class="text center grey-text text-lighten-3"><p>Terminos y condiciones</p></a>
+          </div>
+          <div class="col l4 m4 s12">
+            <p class="text center grey-text text-lighten-3">   contacto@brand.com  </p>
+          </div>
+          <div class="col l4 m4 s12">
+            <a href="error.html" class="text center grey-text text-lighten-3"><p>Error</p></a>
+          </div>
+        </div>  
+      </div>
+      
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Script -->
+    <script src="scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          M.AutoInit();
+        });
+    </script>
+  </body> <!-- Cierra body -->
+</html> <!-- Cierra html -->

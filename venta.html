@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un sitio de producto genial">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--los iconos de google-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/><!--accede al css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--optimizacion para movile-->
+    <title>BRAND📦</title>
+
+  </head> <!-- Cierra head -->
+  <body>
+    <div class="navbar-fixed">
+      <nav class="fadeInDown">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"> <img src="images/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> <!--conexion con el menu hamburguesa y utilizacion del icono-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="faqs.html">Faqs</a></li>
+            <li><a href="producto.html">Producto y descripción</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+    
+    <ul class="sidenav" id="mobile-demo"><!--es para el menu hamburguesa-->
+      <li><a href="faqs.html">Faqs</a></li>
+      <li><a href="producto.html">Producto y descripción</a></li>
+    </ul>
+
+    <!-- Empiezan Formulario Venta -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/paseo.jpg">
+            </div>
+            <div class="card-content">
+              <h5 class="center deep-orange-text">¡Ya casi es tuya!</h5>
+              <p>Excelente elección, con esta bicicleta de 21 cambios y rodado 26 vas a disfrutar de magnificos paseos. Con tu compra estas colaborando con el medio ambiente y das el ejemplo de utilizar un vehiculo sustentable.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col l8 m8 s12">
+          <div class="modulo_pago">
+              <form action="ventaexitosa.html">
+                <label for="name">Nombre</label>
+                <br>
+                <input type="text" placeholder="" name="name" class="data">
+                <br>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="text" placeholder="" name="email" class="data">
+                <br>
+                <label for="phone">Teléfono</label>
+                <br>
+                <input type="text" placeholder="" name="phone" class="data">
+                <br>
+                <label for="phone">Cantidad</label>
+                <br>
+                <input type="text" placeholder="" name="cantidad" class="data">
+                <br>
+                <input type="submit" class="main_btn" name="submit" value="Confirmar pago">
+              </form>
+
+          </div>
+        </div>
+        
+    </div>
+  </div>
+
+
+    <!-- Inicio de footer -->
+    <footer class="page-footer">
+      
+      <div class="container">
+        <div class="row"> 
+          <div class="col l4 m4 s12">
+            <a href="terminos.html" class="text center grey-text text-lighten-3"><p>Terminos y condiciones</p></a>
+          </div>
+          <div class="col l4 m4 s12">
+            <p class="text center grey-text text-lighten-3">   contacto@brand.com  </p>
+          </div>
+          <div class="col l4 m4 s12">
+            <a href="error.html" class="text center grey-text text-lighten-3"><p>Error</p></a>
+          </div>
+        </div>  
+      </div>
+      
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Script -->
+    <script src="scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          M.AutoInit();
+        });
+    </script>
+  </body> <!-- Cierra body -->
+</html> <!-- Cierra html -->
